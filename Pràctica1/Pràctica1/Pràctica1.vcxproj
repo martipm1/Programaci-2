@@ -64,9 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="2DPointTemplate.h" />
     <ClInclude Include="ClassString.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Point2f.h" />
+    <ClInclude Include="Swap.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ClassString.cpp" />
