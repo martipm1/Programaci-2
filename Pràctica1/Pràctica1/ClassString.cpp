@@ -157,7 +157,7 @@ int ClassString::Length()
 	return strlen(string);
 }
 
-char* ClassString::getString()
+const char* ClassString::getString()
 {
 	return string;
 }

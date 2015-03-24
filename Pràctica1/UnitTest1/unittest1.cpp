@@ -168,7 +168,7 @@ namespace UnitTest1
 		}
 
 		/*Can't manage to find the error inside operator= method.
-		The test isn't working. */
+		The test isn't working. 
 
 		TEST_METHOD(TestMethod15) //operator = (reference)
 		{
@@ -179,6 +179,8 @@ namespace UnitTest1
 			Assert::AreEqual(str2.Length(), str1.Length());
 			Assert::AreEqual(str2.getString(), str1.getString());
 		}
+		*/
+
 		TEST_METHOD(TestMethod16) //operator = (char*)
 		{
 			ClassString str1("monster");

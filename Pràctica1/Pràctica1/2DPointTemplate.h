@@ -1,5 +1,5 @@
-#ifndef 2DPointTemplate_H
-#define 2DPointTemplate_H
+#ifndef _2DPointTemplate_H_
+#define _2DPointTemplate_H_
 #include <math.h> 
 
 template <class TYPE>
@@ -80,4 +80,4 @@ public:
 	}
 };
 
-#endif 2DPointTemplate_H
+#endif _2DPointTemplate_H_

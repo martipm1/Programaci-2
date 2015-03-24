@@ -66,9 +66,10 @@
   <ItemGroup>
     <ClInclude Include="2DPointTemplate.h" />
     <ClInclude Include="ClassString.h" />
+    <ClInclude Include="DoubleList.h" />
+    <ClInclude Include="DynamicArray.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Point2f.h" />
-    <ClInclude Include="Swap.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ClassString.cpp" />

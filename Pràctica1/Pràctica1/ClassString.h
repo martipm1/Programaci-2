@@ -9,7 +9,7 @@
 
 class ClassString
 {
-public:
+private:
 
 	char* string;
 	int length;
@@ -22,7 +22,7 @@ public:
 
 	int Length();
 
-	char* getString();
+	const char* getString();
 
 	//Constructors
 	ClassString();
